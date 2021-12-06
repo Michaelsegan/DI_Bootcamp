@@ -1,0 +1,50 @@
+
+body {
+	background-image: url("hulk-cool.jpg");
+	height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+    font-family: impact, fantasy
+
+  
+}
+
+.footer, .nav, .text {
+
+	color: #D0D065;
+	text-decoration: none;
+}
+
+p {
+
+
+   
+}
+
+.text {
+	
+  margin-top: 500px
+	
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer {
+
+	display: flex;
+	justify-content: space-around;
+}
+
+	
+
+
+
+	
+
+

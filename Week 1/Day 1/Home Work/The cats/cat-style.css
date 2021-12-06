@@ -1,0 +1,43 @@
+
+body {
+
+	background-color: #D4A96A
+}
+
+.about{
+
+	border: solid;
+	text-align: center;
+}
+
+
+
+h2 {
+	text-align: center;
+}
+
+ol {
+
+
+}
+
+
+h1 {
+
+	text-align: center;
+}
+
+img {
+
+	display: block;
+	margin: auto;
+	box-shadow: 10px 10px 40px;
+	position: relative;
+
+}
+
+.font {
+
+	font-family: gill sans
+}
+
