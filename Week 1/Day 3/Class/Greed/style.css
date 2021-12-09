@@ -1,0 +1,67 @@
+
+
+.wrapper {
+
+padding: 1px;
+border: 3px solid black;
+display:grid;
+grid-template-rows: 10fr 10fr 15fr 10fr;
+grid-template-areas:  
+"a a a a"
+"b b c c"
+"d d e e"
+
+
+
+
+
+	
+
+
+}
+
+
+
+
+
+.all-box {
+
+	border: 1px solid #000;
+	height: 80px;
+	
+	text-align: center;
+
+
+
+}
+
+.box-1 {
+	background-color: grey;
+	grid-area: a;
+	
+}
+
+.box-2 {
+
+	background-color: blue;
+	grid-area: b;
+}
+
+.box-3 {
+
+	background-color: orange;
+	grid-area: c;
+}
+
+.box-4 {
+
+	background-color: purple;
+	grid-area: d;
+
+}
+
+.box-5 {
+
+	background-color: pink;
+	grid-area: e;
+}
