@@ -1,10 +1,21 @@
 
+
+
+
+
+
+
+
+
+
 .hello {
   background-image: url("https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_1280.jpg");
   height:400px;
   background-repeat: no-repeat;
-  background-size: cover;
-background-position: center center;
+  background-size: 100% 100%;
+
+
+
 }
 
 
@@ -31,7 +42,7 @@ align-items: center;
   height: 300px;
   grid-template-columns: 200px 200px 200px;
   grid-gap: 20px;
-  justify-content: center;
+  padding-left: 4em;
 
 
 
@@ -43,3 +54,4 @@ align-items: center;
   border: solid 1px green;
   width: 100px;
 }
+ 
