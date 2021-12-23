@@ -1,0 +1,61 @@
+body {
+    background-color: #C8C8C8;
+    
+    display: flex;
+    
+
+
+   
+}
+
+#pallet {
+    width: 20%;
+    height: 680px;
+    display: flex;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+      
+    
+    
+
+    
+    
+    
+
+    
+
+
+}
+
+#clear {
+    font-size: 3em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left:auto ;
+    grid-column: span 3;
+    
+    
+    
+    
+    
+}
+
+#canvas {
+    display: grid;
+    grid-template-columns: repeat(60,1fr);
+    grid-template-rows: repeat(24,1fr);
+    width: 100% ; 
+    height: 680px;
+    
+
+
+
+}
+

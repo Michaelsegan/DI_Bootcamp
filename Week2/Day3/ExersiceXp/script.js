@@ -68,3 +68,6 @@ let building = {
         david : [1, 500],
     },
 }
+
+console.log(`${building["numberOfAptByFloor"]["firstFloor"]}`);
+console.log(`${building["numberOfAptByFloor"]["secondFloor"]}`);
