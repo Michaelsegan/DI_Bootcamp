@@ -71,9 +71,11 @@
          
 // }
 
-// experiencePoints(20);
+// 
 
 let colors = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
+
+colors.includes()
 
 
 
