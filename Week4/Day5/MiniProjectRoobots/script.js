@@ -96,11 +96,13 @@ const robots = [
   search.addEventListener('keyup',function(e){
     let term = e.target.value.toLowerCase();
     let details = document.getElementsByClassName('details')
-    let cards = document.getElementsByClassName('card')
     Array.from(details).forEach(function(rubi){
       let name = rubi.textContent;
       if (name.toLowerCase().indexOf(term)!= -1){
         rubi.parentElement.style.display = 'block';
+
+
+        
 
 
 
