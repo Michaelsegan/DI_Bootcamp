@@ -35,18 +35,19 @@
 //Exercise 3
 
 
-//Part one
-// const users = {
-//      user1: 18273,
-//      user2: 92833,
-//      user3: 90315 };
+// Part one
+const users = {
+     user1: 18273,
+     user2: 92833,
+     user3: 90315 };
 
-// const x = Object.entries(users);
+const x = Object.entries(users);
 
 
-// x.forEach(number => console.log(number));
+x.forEach(number => console.log(number[0],number[1]*2));
 
-// //Part two
+//Part two
+
 
 
 
@@ -131,27 +132,27 @@
 // two off them will be false
 
 
-class Animal {
-constructor (name,type,color){
-    this.name = name;
-    this.type = type;
-    this.color = color;
-}
+// class Animal {
+// constructor (name,type,color){
+//     this.name = name;
+//     this.type = type;
+//     this.color = color;
+// }
 
-}
+// }
 
-class  Mamal extends Animal {
-    constructor (name,type,color){
-    super (name,type,color);
-    sound (muuuu);
+// class  Mamal extends Animal {
+//     constructor (name,type,color){
+//     super (name,type,color);
+//     sound (muuuu);
     
     
 
-    }
-    play (){
+//     }
+//     play (){
         
-    }
+//     }
     
-}
+// }
 
-let mamal1 = new Mamal("britnu","cow");
+// let mamal1 = new Mamal("britnu","cow");

@@ -100,16 +100,7 @@ const robots = [
       let name = rubi.textContent;
       if (name.toLowerCase().indexOf(term)!= -1){
         rubi.parentElement.style.display = 'block';
-
-
-        
-
-
-
-        
-
-
-      }
+ }
       else {
         rubi.parentElement.style.display = 'none';
 
