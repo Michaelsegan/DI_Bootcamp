@@ -8,12 +8,17 @@ function getIt(){
     req.send();
     req.onload = function(){
         console.log(req.response)
+        for (let i = 0; i < array.length; i++) {
+            const element = array[i];
+            
+        }
     }
     
 }
-
 getIt();
 
-
 //Exersice 2
+
+
+
 
