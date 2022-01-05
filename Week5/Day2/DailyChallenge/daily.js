@@ -12,7 +12,7 @@ function getGif (e){
     // console.log(value);
     let request = new XMLHttpRequest;
     function downData() {
-        request.open('GET',`https://api.giphy.com/v1/gifs/search?q=${value}&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My`);
+        request.open('GET',`https://api.giphy.com/v1/gifs/search?q=${value}&offset=2&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My`);
         request.responseType = 'json';
         request.send();
 
