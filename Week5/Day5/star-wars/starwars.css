@@ -1,0 +1,70 @@
+
+
+
+
+
+
+body {
+    background-color:rgb(10, 14, 9);
+   text-align: center;
+
+   
+
+
+
+
+    
+}
+#all {
+    display: flex;
+    display:inline-block;
+    padding-bottom: 50px;
+    color: white;
+    font-family: impact;
+}
+
+
+
+h1 {
+font-size: 6em;
+    
+
+}
+
+#btn{
+    margin-bottom: 20px;
+    font-family: Impact;
+    color: black;
+}
+
+#container {
+    height: 300px;
+    width: 450px;
+    border: 4px yellow solid;
+    border-radius: 25px;
+    display: flex;
+    display:block;
+    text-align: -webkit-center;
+
+
+    
+ 
+}
+
+p {
+    color: white;
+    height: auto;
+    width: 50%;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+#spinner {
+color: white;
+font-size:4em
+
+
+}
+
+
