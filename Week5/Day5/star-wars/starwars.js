@@ -30,7 +30,7 @@ container.appendChild(piska);
                 throw new Error("oh no!character not available");
 
             }
-        } catch (err) {piska.innerHTML = err.message}
+        } catch (m) {piska.innerHTML = m.message}
         
 
     
