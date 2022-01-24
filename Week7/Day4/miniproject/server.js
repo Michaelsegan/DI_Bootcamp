@@ -1,11 +1,20 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
+const fs = require('fs');
 
-const urlencodedpaParser = bodyParser.urlencoded({ extended: false })
 
-app.post('/index',urlencodedpaParser, function(req, res) {
-    console.log(req.body);
-    res.render('/index',{qs: req.query})
+app.use(express.static('public'))
+
+app.use(express.urlencoded({
+    extended: true
+  }))
+  app.post('./submit-form', (req, res) => {
+    console.log('hello');
+    const type = req.body.type
+    console.log(type);
+
+    res.end()
+  })
+app.listen(7000,()=>{
+    console.log('listenning');
 })
-
